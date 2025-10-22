@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'russo';
+    src: url('fonts/kremlingrad.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'russo2';
+    src: url('fonts/Red\ October.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --fonte-padrao: 'Poppins', sans-serif;
+    --fonte-destaque: 'russo2', sans-serif;
+    --fonte-destaque1: 'russo' , sans-serif;
+    --cor0:red;
+    --cor1:blue;
+    --cor2:white;
+    --cor3:darkgrey;
+    --cor4:black;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: var(--cor3);
+}
+header {
+    background-color:var(--cor3);
+    min-height: 200px;
+    background-color: var(--cor1);
+
+}
+header h1 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor2);
+    text-align: center;
+    padding-top: 6%;
+    font-size: 50px;
+}
+nav {
+    background-color: var(--cor0);
+    text-align: center;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor2);
+    margin-left: 30px;
+    padding: 4px;
+    border-radius: 7px;
+}
+nav > a:hover {
+    transition: 0.5s;
+    background-color: var(--cor2);
+    color: var(--cor4) ;
+}
+main {
+    margin: auto;
+    background-color: var(--cor2);
+    min-height: 500px;
+    max-width: 1500px;
+}
+main p {
+    font-family: var(--fonte-padrao);
+    padding: 10px;
+    text-indent: 30px;
+
+}
+main h2 {
+    font-family: var(--fonte-padrao);
+    padding: 10px;
+}
+ul {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Arial;
+    columns: 2;
+    padding-left: 30px;
+}
