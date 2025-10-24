@@ -39,8 +39,8 @@ header h1 {
     font-family: var(--fonte-destaque);
     color: var(--cor2);
     text-align: center;
-    padding-top: 5%;
-    font-size: 50px;
+    padding-top: 50px;
+    font-size: 40px;
     text-shadow: 5px 5px 5px black;
 }
 nav {
@@ -67,8 +67,8 @@ nav > a:hover {
 }
 main {
     margin: auto;
-    background-color: var(--cor2);
-    min-height: 500px;
+    background-color: var(--cor3);
+    min-height: 700px;
     max-width: 1500px;
 }
 main p {
@@ -80,7 +80,7 @@ main p {
 main h2 {
     display: inline-block;
     font-family: var(--fonte-destaque1);
-    padding: 1px 10px 10px 5px;
+    padding: 1px 10px 20px 10px;
     font-weight: normal;
 }
 ul {
@@ -88,7 +88,7 @@ ul {
     font-size: 20px;
     font-family: Arial;
     columns: 2;
-    
+    padding-left: 40px;
     border-radius: 7px;
     list-style-type: '\1F7E6\00A0';
 }
