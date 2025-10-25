@@ -25,6 +25,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     background-color: var(--cor3);
@@ -104,3 +105,11 @@ img {
     padding-right: 10px;
     
 }
+
+footer { 
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    padding: 10px 0px 10px 0px;
+}
+
