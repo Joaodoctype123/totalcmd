@@ -58,12 +58,12 @@ nav a {
     text-decoration: none;
     color: var(--cor2);
     margin-left: 30px;
-    padding: 4px;
+    padding: 1px 3px 2px 3px;
     border-radius: 7px;
 }
 nav > a:hover {
     transition: 0.6s;
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     color: var(--cor4) ;
 }
 main {
